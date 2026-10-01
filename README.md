@@ -17,10 +17,10 @@ A [pi coding agent](https://github.com/badlogic/pi-coding-agent) extension that 
 
 ## Setup
 
-Copy the extension into pi's extensions directory:
+Install from npm:
 
 ```sh
-cp lopi.ts ~/.pi/agent/extensions/lopi.ts
+pi install npm:lo-pi
 ```
 
 Restart pi (or reload extensions). Then in any session:

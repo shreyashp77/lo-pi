@@ -1,0 +1,32 @@
+{
+  "name": "lo-pi",
+  "version": "1.0.0",
+  "description": "pi coding agent extension: toggle a lofi radio stream (/lopi) with an animated gradient equalizer in the footer",
+  "license": "MIT",
+  "author": "shreyashp77",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "coding-agent",
+    "extension",
+    "lofi"
+  ],
+  "files": [
+    "lopi.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shreyashp77/lo-pi.git"
+  },
+  "homepage": "https://github.com/shreyashp77/lo-pi",
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "pi": {
+    "extensions": [
+      "./lopi.ts"
+    ]
+  }
+}
